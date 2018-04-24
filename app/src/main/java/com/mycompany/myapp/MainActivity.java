@@ -3,6 +3,7 @@ package com.mycompany.myapp;
 import android.os.*;
 import android.support.v7.app.*;
 import android.util.*;
+import com.google.android.gms.common.api.*;
 import com.google.android.gms.location.places.*;
 import com.google.android.gms.location.places.ui.*;
 import com.google.android.gms.maps.*;
@@ -10,6 +11,7 @@ import com.google.android.gms.maps.*;
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback
 {
 	GoogleMap gMap;
+	private GoogleApiClient googleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
