@@ -10,7 +10,7 @@ import com.google.android.gms.maps.*;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback
 {
-	GoogleMap gMap;
+	private GoogleMap gMap;
 	private GoogleApiClient googleApiClient;
 
     @Override
