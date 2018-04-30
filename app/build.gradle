@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.mycompany.myapp"
@@ -20,10 +20,10 @@ android {
 }
 
 dependencies {
-	compile 'com.android.support:appcompat-v7:27.1.1'
-	compile 'com.google.android.gms:play-services-base:15.0.0'
-	compile 'com.google.android.gms:play-services-places:15.0.0'
-	compile 'com.google.android.gms:play-services-location:15.0.0'
-	compile 'com.google.android.gms:play-services-maps:15.0.0'
+	compile 'com.android.support:appcompat-v7:25.4.0' 
+	compile 'com.google.android.gms:play-services-base:12.0.1'
+	compile 'com.google.android.gms:play-services-places:12.0.1'
+	compile 'com.google.android.gms:play-services-location:12.0.1'
+	compile 'com.google.android.gms:play-services-maps:12.0.1'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
